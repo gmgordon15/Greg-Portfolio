@@ -320,3 +320,211 @@ body{
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   cursor: pointer;
 }
+
+
+@media all and (max-width: 500px){
+  
+  .Section-1-Container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20vh;
+    margin-top: 3%;
+  }
+
+  .big-container{
+    margin: 0% 5%
+  }
+
+  .content-container-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Name-Info-Container h1{
+    font-weight: 600;
+    font-size: 80px;
+    width: 100%;
+    color:white;
+  }
+  
+  .Name-Info-Container h3{
+    margin-top:5%;
+    font-weight: 600;
+    font-size: 30px;
+    color:white;
+  }
+
+  .Name-Info-Container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    width: 100%;
+  }
+
+  .button-container-section-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10%;
+  }
+
+  .buttons-container-1{
+    width: 100px;
+    height: 40px;
+    background-color: #1E3D59;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border:none;
+    box-shadow:0px 10px 10px rgba(0, 0, 0, 0.50) ;
+    cursor: pointer;
+  }
+
+
+  /*Section 2*/
+
+  .Section-2-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+  }
+  .individual-project-container{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60rem;
+    width: 95%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 0% 5%;
+    align-items: center;
+  }
+
+
+  .project-picture{
+    display: flex;
+    width: 100%;
+    background-color: #D16666;
+    height: 40%;
+    color:white;
+    margin:0;
+  }
+  
+  .project-picture img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .project-discription-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #D16666;
+    height: 50%;
+    padding: 1% 4%;
+    margin:0;
+  }
+  
+  .project-discription-container h4{
+    font-size: 2rem;
+    color:white;
+  
+  }
+  
+  .project-discription-container p{
+    font-size: 1.1rem;
+    color:white;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    overflow: scroll;
+  }
+
+
+  /*Section 3*/
+  .Section-3-Container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-bottom: 30%;
+  }
+
+  .resume-content-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  
+  .resume-container{
+    display:flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .resume{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 85%;
+    width: 90%;
+  }
+
+  /*Section 4*/
+  .section-4-Container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 20%;
+  }
+  
+  .Title-4-Container h2{
+    color: white;
+    font-size: 5rem;
+  }
+  
+  .contact-page-content-container{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+  }
+  
+  .contact-form{
+    background-color:#D9D9D9;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 3%;
+    height: 55vh;
+    margin-bottom: 30%;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  
+  #input-name{
+    width: 50%;
+  }
+  .contact-input{
+    height: 2.5rem;
+    margin-bottom: 2%;
+    padding-left: 3%;
+  }
+  
+  .contact-input::placeholder{
+    font-weight: bold;
+    color: black;
+  }
+}

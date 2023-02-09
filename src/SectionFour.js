@@ -8,9 +8,9 @@ function SectionFour() {
             </div>
             <div className="contact-page-content-container">
                 <div className="contact-form">
-                    <input type="text" name="" value="" placeholder="Full Name" id="input-name" className="contact-input"/>
-                    <input type="text" name="" value="" placeholder="Email" id="input-email" className="contact-input"/>
-                    <input type="text" name="" value="" placeholder="Subject" id="input-subject" className="contact-input"/>
+                    <input type="text" name="" value="" placeholder="Full Name" id="input-name" className="contact-input"></input>
+                    <input type="text" name="" value="" placeholder="Email" id="input-email" className="contact-input"></input>
+                    <input type="text" name="" value="" placeholder="Subject" id="input-subject" className="contact-input"></input>
                     <textarea rows="" cols="" placeholder="Enter Message...." id="text-area"></textarea>
                     <div className="contact-button-div">
                         <button type="">Send Message</button>
