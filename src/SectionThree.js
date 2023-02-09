@@ -2,7 +2,7 @@ import React from 'react'
 
 function SectionThree() {
     return (
-        <div className="Section-3-Container">
+        <div className="Section-3-Container" id="SectionThree">
             <div className="Title-3-Container">
                 <h2>Resume</h2>
             </div>
