@@ -23,7 +23,7 @@ function SectionTwo() {
                         <div className="underline"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
                         <div className="button-container-section-2">
-                            <a href="https://gmgordon15.github.io/the-odds-checker-real/" id="project-2-button-1" target="_blank"> <button className="section-2-buttons">Live</button></a>
+                            <a href="https://gmgordon15.github.io/the-odds-checker-real/" id="project-2-button-1" target="_blank"><button className="section-2-buttons">Live</button></a>
                             <a href="https://github.com/gmgordon15/the-odds-checker-real"  id="project-2-button-2" target="_blank"><button className="section-2-buttons">Code </button></a>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ function SectionTwo() {
                         <div className="underline"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
                         <div className="button-container-section-2">
-                            <button className="section-2-buttons" id="project-2-button-1">Live</button>
-                            <button className="section-2-buttons" id="project-2-button-2">Code</button>
+                            <a href="https://gmgordon15.github.io/chart-project/" id="project-2-button-1" target="_blank"><button className="section-2-buttons">Live</button></a>
+                            <a href="https://github.com/gmgordon15/chart-project"  id="project-2-button-2" target="_blank"><button className="section-2-buttons">Code </button></a>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ function SectionTwo() {
                         <div className="underline"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
                         <div className="button-container-section-2">
-                            <button className="section-2-buttons" id="project-2-button-1">Live</button>
-                            <button className="section-2-buttons" id="project-2-button-2">Code</button>
+                        <a href="https://gmgordon15.github.io/sass-demo-site/" id="project-2-button-1" target="_blank"><button className="section-2-buttons">Live</button></a>
+                            <a href="https://github.com/gmgordon15/sass-demo-site/tree/main/sass-demo-site"  id="project-2-button-2" target="_blank"><button className="section-2-buttons">Code </button></a>
                         </div>
                     </div>
                 </div>
