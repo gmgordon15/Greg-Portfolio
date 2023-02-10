@@ -1,6 +1,16 @@
 import React from 'react'
+import {useEffect} from 'react'
+import Resume from './pictures/Resume - Portfolio.pdf'
+import ResumePic from './pictures/Resume Download.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function SectionThree() {
+    useEffect(()=>{
+        AOS.init({duration: 1000})
+    }, []) 
+
+const ResumePDF = Resume
     return (
         <div className="Section-3-Container" id="SectionThree">
             <div className="Title-3-Container">
@@ -8,13 +18,13 @@ function SectionThree() {
             </div>
 
             <div className="resume-content-container">
-                <div className="resume-container">
-                    <div className="resume">
-                        
-                    </div>
+                <div className="resume-container"data-aos="fade-down">
+                    
+                        <img src={ResumePic} alt="" id="resume-pic" className="resume"/>
+                    
 
                     <div className="button-container-div-3">
-                        <button className="download-button">Download</button>
+                    <a href={ResumePDF} download="Greg Gordon - Resume"><button className="download-button">Download</button></a>
                     </div>
                 </div>
             </div>

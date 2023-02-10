@@ -1,8 +1,17 @@
 import React from 'react'
+import {useEffect} from 'react'
 import {useRef} from 'react'
 import emailjs from '@emailjs/browser';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 function SectionFour() {
+
+    useEffect(()=>{
+        AOS.init({duration: 1000})
+    }, []) 
+
+
     const form = useRef()
 
     const sendEmail = (e) => {
@@ -27,7 +36,7 @@ function SectionFour() {
             </div>
             <div className="contact-page-content-container" id="SectionFour">
                 
-                    <form ref={form} onSubmit={sendEmail} className="contact-form">
+                    <form ref={form} onSubmit={sendEmail} className="contact-form" data-aos="fade-down">
                     <input type="text" name="full_name" placeholder="Name"  id="input-name" className="contact-input" required/>
                     <input type="text" name="email"  placeholder="Email"  id="input-email" className="contact-input" required/>
                     <input type="text" name="subject" placeholder="Subject"  id="input-subject" className="contact-input" required/>

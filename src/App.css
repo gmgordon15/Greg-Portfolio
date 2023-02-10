@@ -141,7 +141,7 @@ body{
   font-size: 1.1rem;
   color:white;
   margin-bottom: 3%;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 
 .button-container-section-2{
@@ -484,7 +484,19 @@ body{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     height: 85%;
     width: 90%;
+    display: flex;
   }
+
+
+  /*.resume img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  #resume-pic{
+    max-width: 100%;
+    max-height: 100%;
+  }*/
 
   /*Section 4*/
   .section-4-Container{
