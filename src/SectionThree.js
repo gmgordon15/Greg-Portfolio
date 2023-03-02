@@ -1,7 +1,7 @@
 import React from 'react'
 import {useEffect} from 'react'
-import Resume from './pictures/Resume - Portfolio.pdf'
-import ResumePic from './pictures/Resume Download.png'
+import Resume from './pictures/Resume - Gregory Gordon Updated.pdf'
+import ResumePic from './pictures/Resume - Updated.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
