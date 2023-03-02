@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/greg-portfolio/static/css/main.b0eedf86.css",
-    "main.js": "/greg-portfolio/static/js/main.150828c8.js",
-    "static/media/RoseAnalyticsPic.png": "/greg-portfolio/static/media/RoseAnalyticsPic.48bbd911393dd54e8dd9.png",
-    "static/media/Resume Download.png": "/greg-portfolio/static/media/Resume Download.652e7be6dc2cd55a483b.png",
-    "static/media/TheODDsGettr.png": "/greg-portfolio/static/media/TheODDsGettr.963f0d5e833139b6ed4c.png",
-    "static/media/ChartItPic.png": "/greg-portfolio/static/media/ChartItPic.c3790932bbe3ca2df473.png",
-    "static/media/Resume - Portfolio.pdf": "/greg-portfolio/static/media/Resume - Portfolio.67fa75eeefc5ae3889b5.pdf",
-    "index.html": "/greg-portfolio/index.html",
-    "main.b0eedf86.css.map": "/greg-portfolio/static/css/main.b0eedf86.css.map",
-    "main.150828c8.js.map": "/greg-portfolio/static/js/main.150828c8.js.map"
+    "main.css": "/gregory-gordon.com/static/css/main.b0eedf86.css",
+    "main.js": "/gregory-gordon.com/static/js/main.b0dc2475.js",
+    "static/media/RoseAnalyticsPic.png": "/gregory-gordon.com/static/media/RoseAnalyticsPic.48bbd911393dd54e8dd9.png",
+    "static/media/Resume - Updated.png": "/gregory-gordon.com/static/media/Resume - Updated.be68fbc9f1bc8f072a10.png",
+    "static/media/TheODDsGettr.png": "/gregory-gordon.com/static/media/TheODDsGettr.963f0d5e833139b6ed4c.png",
+    "static/media/ChartItPic.png": "/gregory-gordon.com/static/media/ChartItPic.c3790932bbe3ca2df473.png",
+    "static/media/Resume - Gregory Gordon Updated.pdf": "/gregory-gordon.com/static/media/Resume - Gregory Gordon Updated.539832d72f812e3c8070.pdf",
+    "index.html": "/gregory-gordon.com/index.html",
+    "main.b0eedf86.css.map": "/gregory-gordon.com/static/css/main.b0eedf86.css.map",
+    "main.b0dc2475.js.map": "/gregory-gordon.com/static/js/main.b0dc2475.js.map"
   },
   "entrypoints": [
     "static/css/main.b0eedf86.css",
-    "static/js/main.150828c8.js"
+    "static/js/main.b0dc2475.js"
   ]
 }
